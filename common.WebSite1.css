@@ -1,56 +1,70 @@
 .header {
-  grid-column: 2/7;
+  grid-column: 2/10;
   background-color: rgba(195, 136, 136, 0.8);
   margin-top: 6%;
   color: rgb(219, 219, 252);
   text-shadow: blue 2px 2px;
+  text-align: center;
 }
 body {
   background-color: rgb(164, 194, 226);
 }
 .nav {
-  grid-column: 2/7;
+  grid-column: 2/10;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-left: 10px;
   margin-right: 10px;
   background-color: rgba(195, 136, 136, 0.8);
-	margin: 1%;
   color: rgb(171, 171, 247);
   font: 25px Georgia;
 }
 .article {
-  grid-column: 1/7;
-  background-color:  rgba(208, 250, 196, 0.95);
+  grid-column: 2/10;
+  background-color: rgb(243, 255, 232);
   color: rgb(2, 0, 137);
   text-shadow: blue;
-	border-radius: 30px;
-  border: 8px solid rgb(212, 179, 103);
-  font-size: 30px;
+  text-align:justify;
+  font-size: 25px;
   font-family:'Lucida Sans';
+  border-radius: 30px;
+  margin-top: 1%;
 }
-.aside { 
-  grid-column: 7;
-  grid-row: 3;
+.asider { 
+  grid-column: 10;
   background-color: rgba(195, 136, 136, 0.8);
   color: rgb(219, 219, 252);
   text-shadow: blue 2px 2px;
+  opacity: 80%;
+}
+.asidel { 
+  grid-column: 1;
+  grid-row: 3/4;
+  background-color: rgba(195, 136, 136, 0.8);
+  color: rgb(219, 219, 252);
+  text-shadow: blue 2px 2px;
+  opacity: 80%;
 }
 .footer {
-  grid-column: 1/7;
+  grid-column: 1/10;
   grid-row: 4;
+  background-color: rgba(195, 136, 136, 0.8);
+	margin: 1%;
+  color: rgb(171, 171, 247);
 }
 
 .grid-container {
   display: grid;
-  gap: 8px;
-  margin-inline: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-inline: 10px;
 }
 
 .grid-container > div {
-  text-align: center;
-  padding: 10px 0;
+  padding: 8px 50px;
   border-radius: 18px;
+  word-wrap: break-word;
 }
 
 p {
