@@ -1,0 +1,12 @@
+.headerleft {
+    background-image: url("spinalcord4.jpg");
+    background-size: 100%;
+}
+.headerright {
+    background-image: url("spinalcord.jpg");
+}
+.h1Scoliosis {
+    font-size: 80;
+    font-family: Serif;
+    font: Garamond;
+}
