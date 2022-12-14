@@ -35,7 +35,6 @@ article {
   margin-bottom: 5%;
   background-color: rgb(204, 236, 175);
   color: rgb(64, 37, 21);
-  text-shadow: blue;
   text-align:justify;
   font: 25px'Lucida Sans';
   border-radius: 30px;
@@ -108,9 +107,8 @@ img {
 }
 
 .h1Scoliosis {
-  font-size: 80;
-  font-family: Serif;
-  font: Garamond;
+  font-size: 80px;
+  font-family: Garamond;
 }
 
 .pagenav {
@@ -128,12 +126,12 @@ img {
 @media only screen and (min-width: 768px) and (max-width: 1023px)
 {
   .grid-container {
-    grid-row-gap: none;
+    grid-row-gap: 0px;
     grid-template-columns:  repeat(6, 1fr);
   }
   header {
     grid-column: 1/7;
-    margin-inline: none;
+    margin-inline: 0px;
   }
   nav {
     grid-column: 1/7;
@@ -163,7 +161,7 @@ img {
   header {
     grid-column: 1/5;
     grid-column-gap: 0px;
-    margin-inline: none;
+    margin-inline: 0px;
   }
   nav {
     grid-column: 1/5;
@@ -192,5 +190,8 @@ img {
   .pagenav > h4 {
     color:rgb(223, 138, 138);
     text-shadow: 1px  2px 2px rgb(26, 20, 20);
+  }
+  img {
+    height: auto;
   }
 }
