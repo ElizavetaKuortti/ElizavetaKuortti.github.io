@@ -1,70 +1,99 @@
-.header {
+.grid-container {
+  display: grid;
+  grid-template-columns:  repeat(10, 1fr);
+  gap: 5px;
+  margin-inline: 5px;
+}
+.grid-container > nav, header, article {
+  padding: 5px 50px;
+  border-radius: 18px;
+  word-wrap: break-word;
+}
+header {
   grid-column: 2/10;
-  background-color: rgba(195, 136, 136, 0.8);
-  margin-top: 6%;
+  background-color: rgba(195, 136, 136, 0.98);
   color: rgb(219, 219, 252);
   text-shadow: blue 2px 2px;
   text-align: center;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
 }
-body {
-  background-color: rgb(164, 194, 226);
-}
-.nav {
+nav {
   grid-column: 2/10;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-left: 10px;
   margin-right: 10px;
-  background-color: rgba(195, 136, 136, 0.8);
+  background-color: rgba(195, 136, 136, 0.98);
   color: rgb(171, 171, 247);
   font: 25px Georgia;
 }
-.article {
+article {
   grid-column: 2/10;
-  background-color: rgb(243, 255, 232);
-  color: rgb(2, 0, 137);
+  background-color: rgb(204, 236, 175);
+  color: rgb(64, 37, 21);
   text-shadow: blue;
   text-align:justify;
-  font-size: 25px;
-  font-family:'Lucida Sans';
+  font: 25px'Lucida Sans';
   border-radius: 30px;
   margin-top: 1%;
 }
-.asider { 
-  grid-column: 10;
-  background-color: rgba(195, 136, 136, 0.8);
+.left { 
+  grid-column: 1/2;
+  background-color: rgba(195, 136, 136);
   color: rgb(219, 219, 252);
   text-shadow: blue 2px 2px;
   opacity: 80%;
 }
-.asidel { 
-  grid-column: 1;
-  grid-row: 3/4;
-  background-color: rgba(195, 136, 136, 0.8);
+.right {
+  grid-column: 9/10;
+  background-color: rgba(195, 136, 136);
   color: rgb(219, 219, 252);
   text-shadow: blue 2px 2px;
   opacity: 80%;
 }
-.footer {
-  grid-column: 1/10;
-  grid-row: 4;
-  background-color: rgba(195, 136, 136, 0.8);
-	margin: 1%;
-  color: rgb(171, 171, 247);
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgba(195, 136, 136, 0.98);
+	margin: -10%;
+  margin-top: 5px;
+  padding-left: 11%;
+  color: rgb(206, 206, 255);
+  text-shadow: 2px 2px 1px blue;
+}
+.Contacts {
+  font-size: 27px;
+  font-weight: 700;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  margin-inline: 10px;
+body {
+  background-color: rgb(161, 201, 244);
+  background-image: url("vectorspine2.png");
+  background-repeat: repeat;
+  background-size: 20%;
 }
 
-.grid-container > div {
-  padding: 8px 50px;
-  border-radius: 18px;
-  word-wrap: break-word;
+h1 {
+  font-size: 40px;
+  color: rgb(11, 104, 70);
+  text-align: center;
+}
+
+h2 {
+ font-size: 33px;
+ color: rgb(11, 104, 70);
+ text-align: center;
+}
+
+h3 {
+  color:rgb(69, 88, 3);
+}
+h4 {
+  color:rgb(69, 88, 3);
 }
 
 p {
@@ -72,14 +101,92 @@ p {
 	font: rgb(219, 219, 252);
 }
 
+a {
+  color: rgb(185, 250, 106);
+  font-weight: 500;
+}
+a:visited {
+  color: rgb(5, 33, 216);
+  text-shadow: 1px 1px 2px rgb(100, 201, 255);
+}
+a:hover {
+  text-shadow: 2px 2px 3px rgb(185, 255, 100);
+}
+
 img {
-	max-width: 30%;
-	min-width: 100px;
-	display: flexbox;
+  margin: 7%;
+  width: 100%;
+  height:auto;
+	max-width: 600px;
+  min-width: 50px;
 }
 
 .h1Scoliosis {
   font-size: 80;
   font-family: Serif;
   font: Garamond;
+}
+
+.pagenav {
+  background-image: linear-gradient(to left, rgba(245, 252, 251, 0.0), rgba(234, 151, 151, 0.639), rgb(230, 162, 162)),
+  url('fern2.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border: dotted 1px blue;
+  padding: 4%;
+  padding-top: 0%;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+  .grid-container {
+    grid-row-gap: none;
+  }
+  header {
+    grid-column: 1/11;
+    margin-inline: none;
+  }
+  nav {
+    grid-column: 1/11;
+  }
+  article {
+    grid-column: 1/11;
+    grid-row: 3;
+  }
+  .left {
+    grid-column: 1/11;
+    grid-row: 4;
+  }
+  .right {
+    grid-column: 1/11;
+    grid-row: 5;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px)
+{
+  .grid-container {
+    grid-column-gap: 0px;
+  }
+  header {
+    grid-column: 1/11;
+    grid-column-gap: 0px;
+    margin-inline: none;
+  }
+  nav {
+    grid-column: 1/11;
+  }
+  article {
+    grid-column: 1/11;
+    grid-row: 3;
+  }
+  .left {
+    grid-column: 1/11;
+    grid-row: 4;
+  }
+  .right {
+    grid-column: 1/11;
+    grid-row: 5;
+  }
 }
