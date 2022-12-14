@@ -21,38 +21,13 @@
             <a href="Treatment.WebSite1.html">Medical Treatment</a>
             <a href="About.WebSite1.html">About</a>
         </nav>
-        <aside id="left">*Advertisment*</aside>
+     
         <article>
             <h1>Scoliosis</h1>
             <p style="padding: 3%;">This is a summary of all important and helpful information about scoliosis and what human being should know about it if they are one who appeared to be gifted with such a vertebral flavor.
                 Here you can find brief elaboration on how does this disease works, the main concepts of healthy lifestyle and all you need to feel confident about what shoul you do since having this diagnosis.</p>
             
-            <div class="disclaimer">
-                    <div>
-                        <p style="text-align: center;">NB! DISCLAIMER NB!</p>
-                        <p style="text-align: justify;">This site is maid for informational purposes and by people 
-                        without medical education. For information on the appropriate treatment for your 
-                        medical condition, please contact your doctor.</p>
-                    </div>
-                    <div><img src="Spine_Thorcage.gif" id="gifST" alt="constantly rotating spine with a torcage">
-                </div>
-            </div>
-            <p>In vitae lectus dolor. Vivamus rhoncus felis non tempus aliquet. 
-                Cras blandit lectus id ex posuere pretium. Donec quis lectus viverra, elementum tellus dictum, fringilla ante.</p>
-            <p>In vitae lectus dolor. Vivamus rhoncus felis non tempus aliquet. 
-                Cras blandit lectus id ex posuere pretium. Donec quis lectus viverra, elementum tellus dictum, fringilla ante.</p>
-            <p>In vitae lectus dolor. Vivamus rhoncus felis non tempus aliquet. 
-                Cras blandit lectus id ex posuere pretium. Donec quis lectus viverra, elementum tellus dictum, fringilla ante.</p>
         </article>
-
-        <aside id="right">*Advertisment*</aside>
     </div>
-
-    <footer>
-        <p style="font-weight:500; font-size:23px;">Contacts:</p>
-        <p>G-mail: lizakuortti@gmail.com</p>
-        <p>Tel.: +358 000000000</p>
-    </footer>
-
 </body>
 </html>
