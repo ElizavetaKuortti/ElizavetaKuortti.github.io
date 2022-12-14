@@ -171,6 +171,8 @@ img {
   article {
     grid-column: 1/5;
     grid-row: 3;
+    margin-inline: -20%;
+    padding-inline: 20%;
   }
   footer {
     padding-left: 13%;
