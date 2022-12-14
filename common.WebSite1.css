@@ -167,6 +167,9 @@ img {
   }
   nav {
     grid-column: 1/5;
+  nav > ol {
+    padding-inline: 3%;
+  }
   }
   article {
     grid-column: 1/5;
