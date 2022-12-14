@@ -167,9 +167,9 @@ img {
   }
   nav {
     grid-column: 1/5;
+  }
   nav > ol {
     padding-inline: 3%;
-  }
   }
   article {
     grid-column: 1/5;
@@ -194,22 +194,6 @@ img {
     text-shadow: 1px  2px 2px rgb(26, 20, 20);
   }
   img {
-    width: 300%;
     height: auto;
-  }
-  h1 {
-    font-size: 120%;
-  }
-  h2 {
-   font-size: 120%;
-  }
-  h3 {
-    font-size: 120%;
-  }
-  h4 {
-    font-size: 120%;
-  }
-  p {
-    font-size: 16px;
   }
 }
