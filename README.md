@@ -1,5 +1,5 @@
 <html>
-<head:
+<head>
     <link rel="stylesheet" href="common.WebSite1.css">
     <link rel="stylesheet" href="index.WebSite1.css">
     <title>ScoliSummary</title>
