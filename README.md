@@ -1,6 +1,5 @@
 <html>
-<head>
-    <meta charset="UTF-8">
+<head:
     <link rel="stylesheet" href="common.WebSite1.css">
     <link rel="stylesheet" href="index.WebSite1.css">
     <title>ScoliSummary</title>
@@ -9,9 +8,6 @@
 
 <body>
     <div class="grid-container">
-        <header>
-            <span class="h1Scoliosis">Scoliosis</span><br>summary
-        </header>
         <nav>
             <a href="index.WebSite1.html">Home</a>
             <a href="WhatIsIt.WebSite1.html">What is it?</a>
@@ -44,14 +40,14 @@
                 Cras blandit lectus id ex posuere pretium. Donec quis lectus viverra, elementum tellus dictum, fringilla ante.</p>
             <img src="Vertebra.png" alt="vertebra" style="width: 80px;">
          <p style="float: left;">
-            <a href="http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Felizavetakuortti.github.io%2Findex.WebSite1.html&usermedium=all&vextwarning=&warning=1">
+            <a href="http://jigsaw.w3.org/css-validator/check/https://elizavetakuortti.github.io/">
                 <img style="border:0;width:88px;height:31px"
                     src="https://jigsaw.w3.org/css-validator/images/vcss"
                     alt="Valid CSS!">
             </a>
         </p>
         <p style="float: right;">
-            <a href="https://validator.w3.org/check?uri=https://elizavetakuortti.github.io/index.WebSite1.html">
+            <a href="https://validator.w3.org/check?uri=https://elizavetakuortti.github.io/">
                 <img style="border:none;height:31px;width:31px;text-decoration:none;"
                     src="http://myy.haaga-helia.fi/~valju/ValidatorLogos/html_logo_grayscale_31.png"
                     alt="Valid HTML"  /></a>
