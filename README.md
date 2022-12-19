@@ -13,10 +13,10 @@ This site is maid for informational purposes and by people without medical educa
 <body>
     <div class="grid-container">
         <nav>
-            <a href="index.WebSite1.html">Home</a>
-            <a href="WhatIsIt.WebSite1.html">What is it?</a>
-            <a href="Lifestyle.WebSite1.html">Lifestyle</a>
-            <a href="Treatment.WebSite1.html">Medical Treatment</a>
+            <a href="index.WebSite1.html">Home</a><br>
+            <a href="WhatIsIt.WebSite1.html">What is it?</a><br>
+            <a href="Lifestyle.WebSite1.html">Lifestyle</a><br>
+            <a href="Treatment.WebSite1.html">Medical Treatment</a><br>
             <a href="About.WebSite1.html">About</a>
         </nav>
     <footer>
